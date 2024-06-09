@@ -1,0 +1,108 @@
+*{
+    overflow: auto;
+    padding: 0%;
+    margin:0px;
+    box-sizing: border-box;
+     scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    width:100%
+   
+}
+.navbar{
+    background-color: grey;
+}
+   
+
+.nav_list{
+    display: flex;
+    gap:3.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+ .navbar li{
+     
+    list-style: none;
+    padding: 3px 3px;
+    margin: 10px 10px;
+    
+} 
+
+.navbar li a{
+   
+     text-decoration: none;
+     color: antiquewhite;
+}
+
+.navbar li:hover{
+   
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.about_section{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap:3em;
+     background-color: black;
+     color:bisque;
+     padding: 30px 12% 0;
+}
+
+.information{
+    max-width: 800px;
+}
+
+.information h3{
+    font-size: 42px;
+}
+
+.information h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+
+p{
+    font-size: 18px;
+    margin:25px 0 30px;
+}
+
+img{
+    border-radius: 50%;
+    width:550px;
+
+} 
+
+.about_me{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap:3em;
+     color: black;
+     background-image: linear-gradient(to right,rgb(227, 195, 200), white);
+     padding: 30px 12% 0;
+     font-size: larger;
+    
+}
+
+h2{
+
+    font-size: 42px;
+    padding: 10px 10px 10px;
+    overflow: hidden;
+    width:300px;
+    
+}
+
+footer{
+     padding: 20px 20px 20px;
+    max-height: fit-content;
+    color: rgb(49, 52, 52);
+    font-size: 30px;
+}
+
